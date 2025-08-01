@@ -4,21 +4,27 @@
 }
 nav {
     height: 45px;
+    width: 100%;
 }
 
 ul {
    display: flex;
    list-style: none;
    align-items: center;
-   justify-content: space-between;
+   width: 996px;
+   height: 44px;
+   margin-left: 390px;
 }
+
 li {
     font-size: 12px;
+    padding: 15px;
+    background: #fff;
+    cursor: pointer;
 }
 
 .logo {
-    width: 30px;
-    margin-left: 300px;
+    width: 44px;
     padding: 20px;
 }
 
@@ -66,6 +72,78 @@ li:nth-child(12) {
     width: 42px;
 }
 
+li button {
+    border: 0;
+    background-color: #fff;
+}
 
+li button svg {
+    display: block;
+}
 
+.main_title {
+    padding: 50px;
+    display: flex;
+}
 
+.main_title_left {
+    width: 700px;
+    height: 258px;
+    margin: 38px 400px 38px 38px;
+    
+}
+
+.store_text {
+    font-size: 48px;
+    color: #1d1d1f;
+}
+
+.slogan {
+    font-size: 48px;
+    color: #6e6e73;
+    margin: 38.4px 0 0;
+}
+
+.main_title_right {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+ .main_title_right div {
+    margin-bottom: 12px;
+ }
+.chat_specialist {
+    display: flex;
+    padding: 10px;
+}
+
+.specialist {
+    width: 35px;
+    height: 35px;
+    border-radius: 50px;
+    background-color: #fff;
+    object-fit: cover;
+    display: flex;
+}
+
+.chat_text_box {
+    width: 160px;
+    height: 22px;
+    font-size: 13px;
+}
+
+.visit_store {
+    display: flex;
+}
+
+.logo_img {
+    width: 35px;
+    height: 35px;
+}
+
+.visit_info {
+    width: 180px;
+    height: 22px;
+    font-size: 13px;
+}
